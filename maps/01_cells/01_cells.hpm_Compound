@@ -1,35 +1,84 @@
 <HPLMapTrack_Compound ID="6E5B09FBC5559BE5C673D46CB23EE23AE19835A6" MajorVersion="1" MinorVersion="1">
     <Section Name="16224038373590702171">
         <Objects>
-            <Compound ID="268435561" Name="Compound_3" CreStamp="0" ModStamp="1605270237" WorldPos="-0.875 2 1" Rotation="0 0 0" Scale="1 1 1" UID="16 64 268435561">
-                <Component ID="268435552" />
+            <Compound ID="268435570" Name="Compound_3" CreStamp="0" ModStamp="1605270237" WorldPos="-0.875 2 1" Rotation="0 0 0" Scale="1 1 1" UID="16 64 268435570">
+                <Component ID="268435561" />
+                <Component ID="268435471" />
+                <Component ID="268435470" />
+                <Component ID="268435472" />
+                <Component ID="268435473" />
+                <Component ID="268435474" />
+                <Component ID="268435475" />
                 <Component ID="268435465" />
                 <Component ID="268435464" />
                 <Component ID="268435466" />
-                <Component ID="268435467" />
-                <Component ID="268435468" />
-                <Component ID="268435469" />
-                <Component ID="268435459" />
-                <Component ID="268435458" />
-                <Component ID="268435460" />
-                <Component ID="268435457" />
                 <Component ID="268435463" />
-                <Component ID="268435461" />
+                <Component ID="268435469" />
+                <Component ID="268435467" />
             </Compound>
-            <Compound ID="268435562" Name="Compound_4" CreStamp="1605270254" ModStamp="1605270373" WorldPos="8 2 28.75" Rotation="0 1.5708 0" Scale="1 1 1" UID="16 63 268435562">
-                <Component ID="268435560" />
-                <Component ID="268435520" />
-                <Component ID="268435521" />
-                <Component ID="268435522" />
-                <Component ID="268435523" />
-                <Component ID="268435524" />
-                <Component ID="268435525" />
+            <Compound ID="268435571" Name="Compound_4" CreStamp="1605270254" ModStamp="1605270373" WorldPos="8 2 28.75" Rotation="0 1.5708 0" Scale="1 1 1" UID="16 63 268435571">
+                <Component ID="268435569" />
                 <Component ID="268435526" />
                 <Component ID="268435527" />
                 <Component ID="268435528" />
                 <Component ID="268435529" />
                 <Component ID="268435530" />
                 <Component ID="268435531" />
+                <Component ID="268435532" />
+                <Component ID="268435533" />
+                <Component ID="268435534" />
+                <Component ID="268435535" />
+                <Component ID="268435536" />
+                <Component ID="268435537" />
+            </Compound>
+            <Compound ID="268435594" Name="Hall_wall_01" CreStamp="0" ModStamp="1606182522" WorldPos="32.5 4 30.25" Rotation="0 0 0" Scale="1 1 1" UID="16 222 268435594">
+                <Component ID="268435592" />
+                <Component ID="268435591" />
+                <Component ID="268435590" />
+                <Component ID="268435589" />
+                <Component ID="268435593" />
+            </Compound>
+            <Compound ID="268435636" Name="Floor_hole" CreStamp="0" ModStamp="1606184492" WorldPos="36.5715 0 30.25" Rotation="0 0 0" Scale="1 1 1" UID="16 220 268435636">
+                <Component ID="268435619" />
+                <Component ID="268435630" />
+                <Component ID="268435631" />
+                <Component ID="268435624" />
+                <Component ID="268435625" />
+                <Component ID="268435626" />
+                <Component ID="268435627" />
+                <Component ID="268435629" />
+                <Component ID="268435628" />
+                <Component ID="268435623" />
+                <Component ID="268435621" />
+                <Component ID="268435620" />
+            </Compound>
+            <Compound ID="268435649" Name="Floor_hole_1" CreStamp="1606183377" ModStamp="1606184499" WorldPos="45 0 30.25" Rotation="0 0 0" Scale="1 1 1" UID="16 221 268435649">
+                <Component ID="268435637" />
+                <Component ID="268435638" />
+                <Component ID="268435639" />
+                <Component ID="268435640" />
+                <Component ID="268435641" />
+                <Component ID="268435642" />
+                <Component ID="268435643" />
+                <Component ID="268435644" />
+                <Component ID="268435645" />
+                <Component ID="268435646" />
+                <Component ID="268435647" />
+                <Component ID="268435648" />
+            </Compound>
+            <Compound ID="268435683" Name="Floor_hole_2" CreStamp="1606183524" ModStamp="1606184508" WorldPos="53.5 0 30.25" Rotation="0 0 0" Scale="1 1 1" UID="16 218 268435683">
+                <Component ID="268435671" />
+                <Component ID="268435672" />
+                <Component ID="268435673" />
+                <Component ID="268435674" />
+                <Component ID="268435675" />
+                <Component ID="268435676" />
+                <Component ID="268435677" />
+                <Component ID="268435678" />
+                <Component ID="268435679" />
+                <Component ID="268435680" />
+                <Component ID="268435681" />
+                <Component ID="268435682" />
             </Compound>
         </Objects>
     </Section>

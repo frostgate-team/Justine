@@ -1,2 +1,4 @@
 *.map_cache
 *.preload_cache
+/static_objects
+/entities

@@ -1,0 +1,20 @@
+<HPLMapTrack_Compound ID="B2595E4144B8818F78B79A3D48B5BEB9298B5F73" MajorVersion="1" MinorVersion="1">
+    <Section Name="16224038373590702171">
+        <Objects>
+            <Compound ID="268435476" Name="Rocks" CreStamp="0" ModStamp="1606191465" WorldPos="3.747 0.955 4.375" Rotation="0 0 0" Scale="1 1 1" UID="16 26 268435476">
+                <Component ID="268435458" />
+                <Component ID="268435462" />
+                <Component ID="268435460" />
+                <Component ID="268435459" />
+                <Component ID="268435461" />
+            </Compound>
+            <Compound ID="268435477" Name="Rocks_1" CreStamp="1606191467" ModStamp="1606191501" WorldPos="-3.00212 0.955 3.92677" Rotation="-0 2.35619 -0" Scale="1 1 1" UID="16 27 268435477">
+                <Component ID="268435463" />
+                <Component ID="268435464" />
+                <Component ID="268435465" />
+                <Component ID="268435466" />
+                <Component ID="268435467" />
+            </Compound>
+        </Objects>
+    </Section>
+</HPLMapTrack_Compound>

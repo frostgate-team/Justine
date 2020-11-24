@@ -1,0 +1,119 @@
+#include "interfaces/Map_Interface.hps"
+#include "base/Inputhandler_Types.hps"
+#include "helpers/helper_imgui_options.hps"
+#include "custom/helpers/helper_menu.hps"
+
+#include "helpers/helper_map.hps"
+#include "helpers/helper_props.hps"
+#include "helpers/helper_effects.hps"
+#include "helpers/helper_player.hps"
+#include "helpers/helper_audio.hps"
+#include "helpers/helper_imgui.hps"
+#include "helpers/helper_sequences.hps"
+#include "helpers/helper_game.hps"
+#include "helpers/helper_modules.hps"
+#include "helpers/helper_ai.hps"
+
+//--------------------------------------------------
+ 
+/*Place any global values here. These must be const variables as they will not be saved*/
+/*This is also the place for enums and classes, but these should be avoided whenever possible*/
+ 
+//--------------------------------------------------
+ 
+class cScrMap : iScrMap
+{
+
+	//-------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// MAIN CALLBACKS
+	/////////////////////////////////////////
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////
+	// Run first time starting map
+	void OnStart()
+	{
+		//----DEBUG----//
+		if(cLux_ScriptDebugOn())
+		{
+			//Add any debug stuff here
+		}
+		
+		//Preload sounds
+	}
+
+	//-------------------------------------------------------
+
+	void Setup()
+	{
+	}
+	
+	void PreloadData()
+	{
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when entering map
+	void OnEnter()
+	{	
+		//////////////
+		// Disable pause menu and show main menu instead
+		Player_Teleport("PlayerStartArea_1");
+		PauseMenu_Enabled(false);
+		cLux_SetGamePaused(false, true, true, true);
+		MainMenu_Show(true);
+		cLux_GetGuiHandler().SetGameHudInputFocus(true);
+		Player_ShowCrossHairIcons(false);
+		Effect_Fade_In(5.0f);
+		Player_SetGravityEnabled(false);
+	}
+	
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when leaving map
+	void OnLeave()
+	{
+		Player_ShowCrossHairIcons(true);
+	}
+	
+	//-------------------------------------------------------
+	
+	void OnAction(int alAction, bool abPressed)
+	{
+		if(abPressed==false) return;
+
+		return;
+	}
+	
+	//-------------------------------------------------------
+	
+	/////////////////////////////////////////
+	// HELPERS
+	/////////////////////////////////////////
+	
+	//---------------------------------------------------------
+
+	/////////////////////////////////////////
+	// MAIN MENU GUI
+	/////////////////////////////////////////
+	
+	//---------------------------------------------------------
+
+	void OnGui(float afTimeStep)
+	{
+		// Rendering done in PauseMenu script
+	}
+
+	//------------------------------------------------------
+
+	void Update(float afTimeStep)
+	{
+		Player_SetActive(false);
+	}
+}

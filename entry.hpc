@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Content Version="1.0"
 	Type="StandAlone"
-	Title="Justine"
+	Title="Amnesia: Justine"
 	Author="Nyarstot and TurboSosiska"
 	Description_english="Amnesia: Justine remade on HPL3"
 	
-	LauncherPic="LauncherPic.png"
+	LauncherPic="justineModScreen.jpg"
 	InitCfg="config/main_init.cfg"
 />
